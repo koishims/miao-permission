@@ -1,0 +1,21 @@
+{
+  "name": "@koishims/koishi-plugin-miao-permission",
+  "description": "一个独立于Koishi的命令权限管理系统",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "4.13.6"
+  }
+}
