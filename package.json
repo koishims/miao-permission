@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-miao-permission",
   "description": "Koishi 权限管理系统",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -17,8 +17,8 @@
     "miaowoo"
   ],
   "peerDependencies": {
-    "koishi": "^4.14.1",
-    "@koishijs/plugin-admin": "^2.0.0-alpha.0"
+    "@koishijs/plugin-admin": "^2.0.0-alpha.4",
+    "koishi": "^4.15.3"
   },
   "koishi": {
     "description": {
@@ -26,8 +26,7 @@
     },
     "service": {
       "required": [
-        "database",
-        "admin"
+        "database"
       ],
       "optional": [],
       "implements": [
